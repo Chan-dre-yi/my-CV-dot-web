@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Chandreyi</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+ 
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/perfil2.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">CHANDREYI <b>CHOWDHURY</b></h1>
+                                <h3 class="home__profession"> Student at VIT, Vellore</h3>
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> Surat, Gujarat
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> chandreyi.surat@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> +91 9512860806
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <!--<i class='bx bx-download generate-pdf' title = "Generate PDF" id="resume-button"></i>-->
+
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/chandreyic/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i> @chandreyic
+                            </a>
+                            <a href="https://github.com/chan-dre-yi" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i> @chan-dre-yi
+                            </a>
+                            <a href="" target="https://chan-dre-yi.github.io/my-CV/" class="social__link">
+                                <i class='bx bx-globe social__icon'></i> chan-dre-yi.github.io/my-CV/
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">I am a person, responsible with their work during working hours. Finish various technical and higher studies at large universities. I have several years of experience and achievements in the labor field.</p>
+                    </section>
+
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+                    
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience-title">INTERN</h3>
+                                    <span class="experience__company">Feb '23 - Present | Vindhya e-Infomedia Pvt. Ltd.</span>
+                                    <p class="experience__description">Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                                </div>
+                            </div>
+                    
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience-title">MANAGER FOR GENERAL ENQUIRY</h3>
+                                    <span class="experience__company">Dec '22 - Feb '23 | Riviera 2023</span>
+                                    <p class="experience__description">Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                                </div>
+                            </div>
+                    
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!--<span class="experience__line"></span>-->
+                                </div>
+                    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience-title">EVENTS HEAD</h3>
+                                    <span class="experience__company">March '22 - Feb '23 | Dutchese Literary Association - VIT</span>
+                                    <p class="experience__description">Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> C
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> C++
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Python
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Java
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> R
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> MATLAB
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> SPSS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Minitab
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> SQL
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Oracle DBMS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Power BI
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Tableau
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> AWS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Apache Hadoop
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Machine Learning:
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Tensorflow
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Keras
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Scikit-Learn
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> NLTK
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> ANN | Deep Learning
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">INTEGRATED MSC. IN COMPUTATIONAL STATISTICS AND DATA ANALYTICS</h3>
+                                    <span class="education__studies">Vellore Institute of Technology, Vellore</span>
+                                    <span class="education__year">2019-2024  |=>  Grade: 9.11 CGPA</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">INTERMEDIATE (PHYSICS, CHEMISTRY, MATHEMATICS AND COMPUTR SCIENCE)</h3>
+                                    <span class="education__studies">Divine Child High School, Surat</span>
+                                    <span class="education__year">2018-2019 |=>  Grade: 85.5 % |=>  Board: CBSE</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!--<span class="education__line"></span>-->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">JUNIOR HIGH</h3>
+                                    <span class="education__studies">S.D. Jain Modern School, Surat</span>
+                                    <span class="education__year">2016-2017  |=>  Grade: 9.6 CGPA  |=>  Board: CBSE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!--========== PROJECTS ==========-->
+                    <section class="project section" id="projects">
+                        <h2 class="section-title">Projects</h2>
+
+                        <div class="project__container bd-grid">
+                            <div class="project__content">
+                                <h3 class="project__title">Youtube Sentiment Analysis Model</h3>
+                                <span class="project__company">Python | NLTK | Stemming and Lemmatization | Gaussian Naive Bayes Classifier</span>
+                                <p class="project__description">This work provides a model based on Python that extracts the comments of a YouTube video which then becomes our dataset. A Machine Learning technique known as Sentiment Analysis (Classification Model) is applied to the dataset extracted to provide the YouTuber with a better understanding of the distribution of the sentiment of his/ her viewers.</p>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">After Hurricane Analysis Using MATLAB</h3>
+                                <span class="project__company">Exploratory Data Analysis | Visualizations and Insights | Hurricane Harvey Dataset</span>
+                                <p class="project__description">Analysis and visualization of Hurricane Harvey (a category 4 devastating hurricane that hit the south-eastern coast of North America causing more than 100 deaths, in 2017) Dataset on MATLAB to aid an insurance company make informed decisions on where to allocate the maximum resources according to the amount of damage caused.</p>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">Realtime Chat Application Using Pub-Sub and Apache Kafka</h3>
+                                <span class="project__company">Data Engineering | Hadoop Ecosystem</span>
+                                <p class="project__description">This is an ongoing project which aims to develop a chat application where multiple users can login from different IP addresses to join a single chat environment and have a conversation.</p>
+                            </div>
+
+                            <div class="project__content">
+                                <h3 class="project__title">Application of ANN to verify the Conservation Law</h3>
+                                <span class="project__company">Neural Network | PDEs | Conservation Law</span>
+                                <p class="project__description">This is another ongoing research project which aims on developing a model that could generate its own dataset of PDEs based on several parameters and constraints provided, and then use the same on an ANN that would enable us to verify the statement of the conservation law.</p>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Lean Six Sigma Black Belt</h3>
+                                <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Merit Scholarship => 2020 | 2021 | 2022</h3>
+                                <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Business Analytics And Text Mining Modelling Using Python</h3>
+                                <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="rerefences__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Assistant Professor at VIT, Vellore</span>
+                                <h3 class="references__title">Dr. Neelabja Chatterjee</h3>
+                                <ul class="references__linkedin">
+                                    <li><a href="https://www.linkedin.com/in/neelabja-chatterjee-420a9678/" target="_blank" class="social__link">
+                                        <i class='bx bxl-linkedin-square social__icon'></i> @neelabja-chatterjee-420a9678</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Associate Professor at VIT, Vellore</span>
+                                <h3 class="references__title">Dr. B S R V Prasad</h3>
+                                <ul class="references__linkedin">
+                                    <li><a href="https://www.linkedin.com/in/bsrvprasad/" target="_blank" class="social__link">
+                                        <i class='bx bxl-linkedin-square social__icon'></i> @bsrvprasad</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Hindi
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Bengali
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> French
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Gujarati
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-paint interests__icon'></i>
+                                <span class="interests__name">Painting</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-pencil interests__icon'></i>
+                                <span class="interests__name">Sketching</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-music interests__icon' ></i>
+                                <span class="interests__name">Kathak</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-music interests__icon' ></i>
+                                <span class="interests__name">Bharatnatyam</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon'></i>
+                                <span class="interests__name">Reading</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
