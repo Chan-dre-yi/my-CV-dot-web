@@ -4,4 +4,4 @@ Here's the code to my RESUME WEBSITE which I created using HTML, CSS, and JavaSc
 Checkout the website here: https://chan-dre-yi.github.io/my-cv/
 
 Heres a short demo:
-[vdo.mp4](https://github.com/Chan-dre-yi/my-cv/edit/master/vdo.mp4)
+https://user-images.githubusercontent.com/88923015/231441524-f2e63807-cbb1-401f-bce4-82c323163426.mp4
